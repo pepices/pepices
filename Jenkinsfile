@@ -5,11 +5,11 @@ pipeline {
             steps {
                 sh '/var/jenkins_home/juan/juan.sh'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Varias órdenes en un step chuta tb."
                     ls -lah
                 '''
                 sh '''
-                    echo "copon bendito 123"
+                    echo "copon bendito..."
                 '''
             }
         }
