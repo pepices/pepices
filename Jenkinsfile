@@ -9,7 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh '''
-                    echo "copon bendito..."
+                    echo "copon bendito 1111..."
                 '''
             }
         }
